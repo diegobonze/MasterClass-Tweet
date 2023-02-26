@@ -23,7 +23,7 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 
 Projeto desenvolvido através do MasterClass-React pela Rocketseat
 
-[🔗 Clique aqui para acessar](https://https://master-class-tweet.vercel.app/)
+[🔗 Clique aqui para acessar](https://master-class-tweet.vercel.app/)
 
 ## 🚀 Tecnologias
 
