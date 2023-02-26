@@ -14,11 +14,11 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 <br>
 
 <p align="center">
-  <img alt="masterClassTweet" src=".github/project.png" width="50%">
+  <img alt="masterClassTweet" src=".github/project.png" width="100%" heigth="50%">
 </p>
 
 <p align="center">
-  <img alt="masterClassTweet" src=".github/project-1.png" width="50%">
+  <img alt="masterClassTweet" src=".github/project-1.png" width="100%" heigth="50%">
 </p>
 
 Projeto desenvolvido através do MasterClass-React pela Rocketseat
