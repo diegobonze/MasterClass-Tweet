@@ -7,61 +7,64 @@ import {
   FileText,
   User,
   DotsThreeCircle,
+  Pencil,
 } from "phosphor-react";
+import { NavLink } from "react-router-dom";
 
 import twitterLogo from "../assets/logo-twitter.svg";
-import './Sidebar.css'
+import "./Sidebar.css";
 
 export function Sidebar() {
   return (
     <aside className="sidebar">
-        <img className="logo" src={twitterLogo} alt="Logo" />
+      <img className="logo" src={twitterLogo} alt="Logo" />
 
-        <nav className="main-navigation">
-          <a className="active" href="">
-            <House weight="fill" />
-            Home
-          </a>
+      <nav className="main-navigation">
+        <NavLink to="/">
+          <House weight="fill" />
+          <span>Home</span>
+        </NavLink>
 
-          <a href="">
-            <Hash />
-            Explore
-          </a>
+        <a href="">
+          <Hash />
+          <span>Explore</span>
+        </a>
 
-          <a href="">
-            <Bell />
-            Notification
-          </a>
+        <a href="">
+          <Bell />
+          <span>Notification</span>
+        </a>
 
-          <a href="">
-            <Envelope />
-            Messages
-          </a>
+        <a href="">
+          <Envelope />
+          <span>Messages</span>
+        </a>
 
-          <a href="">
-            <Bookmarks />
-            Bookmarks
-          </a>
+        <a href="">
+          <Bookmarks />
+          <span>Bookmarks</span>
+        </a>
 
-          <a href="">
-            <FileText />
-            Lists
-          </a>
+        <a href="">
+          <FileText />
+          <span>Lists</span>
+        </a>
 
-          <a href="">
-            <User />
-            Profile
-          </a>
+        <a href="">
+          <User />
+          <span>Profile</span>
+        </a>
 
-          <a href="">
-            <DotsThreeCircle />
-            More
-          </a>
-        </nav>
+        <a href="">
+          <DotsThreeCircle />
+          <span>More</span>
+        </a>
+      </nav>
 
-        <button className="new-tweet" type="button">
-          Tweet
-        </button>
-      </aside>
-  )
+      <button className="new-tweet" type="button">
+        < Pencil />
+        <span>Tweet</span>
+      </button>
+    </aside>
+  );
 }
